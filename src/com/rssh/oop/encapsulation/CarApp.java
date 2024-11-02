@@ -9,16 +9,8 @@ public class CarApp {
          * 4. Polymorph
          * */
 
-        Car yaris = new Car("Yaris","Toyota",4); // membuat object bernama yaris
-        Car avanza = new Car(); // gak error karena ada overloading constructor
-        Car bmw = new Car("320i","BWM",4);
-
-        System.out.println(bmw);
-        System.out.println(yaris);
-
-        System.out.println(yaris.getName());
+        Car yaris = new Car("Yaris", "Toyota",4);
         yaris.setName("Kijang");
-        System.out.println(yaris.getName());
-
     }
+
 }

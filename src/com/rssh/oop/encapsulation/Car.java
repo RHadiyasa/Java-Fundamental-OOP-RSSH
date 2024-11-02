@@ -5,6 +5,20 @@ public class Car {
     private String brand;
     private Integer wheels;
 
+
+    /**
+     * int
+     * Integer
+     * */
+
+
+
+    public Car(String name, String brand, Integer wheels) {
+        this.name = name;
+        this.brand = brand;
+        this.wheels = wheels;
+    }
+
     /**
      * Tipe Data
      * 1. Primitive -> int -> alokasi memori sudah ditentukan
@@ -12,11 +26,6 @@ public class Car {
      *
      * */
 
-    public Car(String name, String brand, Integer wheels){
-        this.name = name;
-        this.brand = brand;
-        this.wheels = wheels;
-    }
 
     // Overloading constructor
     // Overloading -> method yang sama, tapi parameternya beda.

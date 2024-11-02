@@ -11,6 +11,12 @@ public class Bank {
         this.balance += amount;
     }
 
+    public void transfer(Bank bank, Integer amount){
+        Integer receiveTransfer = bank.getBalance() + amount;
+        bank.setBalance(receiveTransfer);
+        this.balance -= amount;
+    }
+
     public void withdraw(Integer amount) {
         if (amount > this.balance) {
             System.out.println("Saldo kurang");

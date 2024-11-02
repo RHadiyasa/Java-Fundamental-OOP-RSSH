@@ -9,6 +9,9 @@ public class Main {
         System.out.println("Hello World");
         System.out.println("Halo Dunia");
 
+        int age; // primitive data type -> memory tetap
+        Integer usia; // non primitive data type -> dinamis
+
         /**
         * Format package
          * com. -> nama domain

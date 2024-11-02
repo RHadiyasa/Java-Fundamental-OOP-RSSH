@@ -1,5 +1,8 @@
 package com.rssh.oop.mobile_legends;
 
+import com.rssh.oop.mobile_legends.characters.hero.Marksman;
+import com.rssh.oop.mobile_legends.characters.monster.Turtle;
+
 public class MobileLegends {
     public static void main(String[] args) {
         /*
@@ -14,17 +17,21 @@ public class MobileLegends {
         * 2. Lord
         * 3. Turtle
         * 4. Jungle
+        *
         * */
 
-        Marksman miya = new Marksman("Miya",1500, 500);
+        Marksman miya = new Marksman("Miya",1500, 1500);
         Marksman layla = new Marksman("Layla",1500, 400);
-        Monster turtle = new Monster("Turtle", 5000, 100);
+        Turtle turtle = new Turtle("Turtle Menit 5", 2000, 200);
 
         miya.attack(turtle);
+        System.out.println("Hp Miya: " + miya.getHp());
         System.out.println("-".repeat(30));
         turtle.attack(miya);
         System.out.println("-".repeat(30));
         layla.attack(turtle);
 
+        miya.attack(turtle);
+        System.out.println("Hp Miya: " + miya.getHp());
     }
 }
