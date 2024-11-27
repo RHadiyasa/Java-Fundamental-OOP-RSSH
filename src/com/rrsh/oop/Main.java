@@ -8,6 +8,7 @@ public class Main {
 
         System.out.println("Hello World");
         System.out.println("Halo Dunia");
+        System.out.println("Hello 3");
 
         int age; // primitive data type -> memory tetap
         Integer usia; // non primitive data type -> dinamis

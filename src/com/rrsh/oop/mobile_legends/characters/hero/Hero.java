@@ -1,8 +1,8 @@
 package com.rrsh.oop.mobile_legends.characters.hero;
 
-import com.rrsh.oop.mobile_legends.characters.Character;
+import com.rrsh.oop.mobile_legends.characters.CharacterHero;
 
-public abstract class Hero extends Character {
+public abstract class Hero extends CharacterHero {
     /**
      * Abstract -> bisa punya method biasa
      * hanya bisa implement 1 abstract class

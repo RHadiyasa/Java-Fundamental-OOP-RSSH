@@ -1,6 +1,6 @@
 package com.rrsh.oop.mobile_legends.characters.hero;
 
-import com.rrsh.oop.mobile_legends.characters.Character;
+import com.rrsh.oop.mobile_legends.characters.CharacterHero;
 
 public class Marksman extends Hero {
     public Marksman(String name, Integer hp, Integer damage) {
@@ -16,7 +16,7 @@ public class Marksman extends Hero {
     }
 
     @Override
-    public void attack(Character target) {
+    public void attack(CharacterHero target) {
         System.out.println(super.getName() + " attack " + super.getDamage() + " damage");
         target.getAttacked(super.getDamage());
         passive();

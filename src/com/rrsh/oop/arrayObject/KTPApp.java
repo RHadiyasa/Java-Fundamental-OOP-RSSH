@@ -33,7 +33,7 @@ public class KTPApp {
             peoples[i] = new Person(name, age);
         }
 
-        System.out.println("-".repeat(40));
+        System.out.println("-");
         for (Person person : peoples) {
             person.displayInfo();
         }

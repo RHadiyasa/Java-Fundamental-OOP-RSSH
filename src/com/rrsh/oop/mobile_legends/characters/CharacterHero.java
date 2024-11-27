@@ -1,17 +1,17 @@
 package com.rrsh.oop.mobile_legends.characters;
 
-public abstract class Character {
+public abstract class CharacterHero {
     private String name;
     private Integer hp;
     private Integer damage;
 
-    public Character(String name, Integer hp, Integer damage) {
+    public CharacterHero(String name, Integer hp, Integer damage) {
         this.name = name;
         this.hp = hp;
         this.damage = damage;
     }
     // abstract
-    public abstract void attack(Character target);
+    public abstract void attack(CharacterHero target);
 
     // Method attack
     //    public void attack(Monster monster){
